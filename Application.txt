@@ -1,0 +1,19 @@
+1. Initialize the project go mod init github.com/ ....
+2. Create main.go file
+3. We would be installing our routing library:
+      go get github.com/gorilla/mux
+4. Edit the main.go file to Create routes using the library.
+5. Serving Static files
+   “Static files” are the HTML, CSS, JavaScript, images, and the other static asset files that are needed to form a website.
+
+    There are 2 steps we need to take in order to make our server serve these static assets.
+
+    1. Create static assets
+        To create static assets, create a directory in your project root directory, and name it assets :
+        mkdir assets
+        Create an HTML file inside this directory. This is the file we are going to serve, 
+        along with any other file that goes inside the assets directory
+
+    2. Modify our router to serve static assets
+
+ 
